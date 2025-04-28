@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
-import NewProducts from '../../assets/NewProducts'
+import NewProducts from '../../assets/Newproducts'
 import Card from '../commonfiles/Card'
 
 const Search = () => {
