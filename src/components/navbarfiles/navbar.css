@@ -1,0 +1,30 @@
+.navbar img{
+    width: 70px;
+    height: 90px;
+}
+
+.navbar{
+    background-color: yellowgreen;
+}
+
+.nav-link{
+    color: white;
+}
+
+/* .active{
+    color: red !important;
+} */
+
+.navbar-toggler-icon{
+    background-color: white !important;
+    color: white;
+}
+
+.navbar-toggler{
+    margin-right: 50px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: whitesmoke;
+}
