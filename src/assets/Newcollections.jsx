@@ -1,7 +1,7 @@
 import Fashion from './images/fashion2.jpg'
-import flower from './images/flower.jpg'
-import flower1 from './images/flower1.jpg'
-import Gaming from './images/game.jpg'
+import flower from './images/FLOWER.jpg'
+import flower1 from './images/FLOWER1.jpg'
+import Gaming from './images/GAME.jpg'
 import Code from './images/code.jpg'
 
 let latest_collections = [
