@@ -6,22 +6,21 @@ import Card from '../commonfiles/Card'
 const Search = () => {
     const [searchParams] = useSearchParams()
     const navigate = useNavigate()
-    const categoryQuery = searchParams.get('category')?.toLowerCase() || '';
+    const categoryQuery = searchParams.get('category')?.toLowerCase() || ''
     const [results, setResult] = useState([])
 
-    useEffect(() => {
+    useEffect(()=> {
         const filtered = NewProducts.filter((item) =>
-            item.category.toLowerCase() === categoryQuery
-
+            item.category.toLowerCase()===categoryQuery
         )
 
-        if (filtered.length === 0) {
+        if (filtered.length===0){
             navigate('/')
         }
         else {
             setResult(filtered)
         }
-    }, [categoryQuery, navigate])
+    }, [categoryQuery,navigate ])
 
     return (
         <div>

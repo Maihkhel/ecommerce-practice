@@ -113,7 +113,7 @@ const Navbar = () => {
                                 const value = e.target.elements.category.value
 
                                 if (value) {
-                                    window.location.href = 'search?category=${value}'
+                                    window.location.href = `search?category=${value}`
                                 }
                             }}>
                                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" name='category' />
