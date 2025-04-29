@@ -76,6 +76,12 @@ const Navbar = () => {
                     <Link className='navbar-link' to='/'>
                         <img src={LOGO} alt="logo" />
                     </Link>
+                    <span className="nav-item">
+                        <Link to='/cart'>
+                            <BsCart4 className='cart' />
+                            <sup> <span className='cartnumber'>{totalItems()}</span></sup>
+                        </Link>
+                    </span>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -99,12 +105,7 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link to='/signup'>Signup</Link>
                                 </li>
-                                <li className="nav-item">
-                                    <Link to='/cart'>
-                                        <BsCart4 className='cart' />
-                                        <sup> <span className='cartnumber'>{totalItems()}</span></sup>
-                                    </Link>
-                                </li>
+
 
 
                             </ul>
