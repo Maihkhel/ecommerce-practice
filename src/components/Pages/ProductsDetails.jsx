@@ -62,7 +62,7 @@
 
 import React,{useEffect} from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import NewProducts from '../../assets/Newproducts'
+import NewProducts from '../../assets/NewProducts'
 import './productsdetails.css'
 import {FaStar} from 'react-icons/fa'
 import { useCart } from '../context/CartContext'
