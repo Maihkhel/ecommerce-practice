@@ -1,7 +1,7 @@
 import React from 'react'
 import './bestseller.css'
 import Card from '../commonfiles/Card'
-import NewProducts from '../../assets/NewProducts'
+import NewProducts from '../../assets/Newproducts'
 
 
 const Bestseller = () => {
